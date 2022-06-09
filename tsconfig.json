@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "infra/config/config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "infra/config/config.js", "src/pages/index.jsx", "src/pages/api/hello.js"],
   "exclude": ["node_modules"]
 }
