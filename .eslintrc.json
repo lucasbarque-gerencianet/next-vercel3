@@ -1,0 +1,15 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+  },
+  "rules": {
+    "semi": ["warn", "always"],
+    "spaced-comment": ["warn", "always"],
+    "skipStrings": "off",
+    "import/no-named-as-default-member": "off",
+    "no-irregular-whitespace": "off",
+  }
+}
